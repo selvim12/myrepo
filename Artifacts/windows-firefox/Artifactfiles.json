@@ -6,7 +6,7 @@
         "Windows",
         "Firefox"
     ],
-    "iconUri": "https://chocolatey.org/content/packageimages/Firefox.52.0.1.png",
+    "iconUri": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/Artifacts/windows-firefox/mozilla firefox_icon.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./selvi.ps1')]"
