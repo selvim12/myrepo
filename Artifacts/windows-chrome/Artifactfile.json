@@ -13,3 +13,4 @@
     "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./sell.ps1')]"
   }
 }
+
