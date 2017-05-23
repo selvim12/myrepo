@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
     "title": "Firefox",
-    "description": "Installs Firefox using the Chocolatey package manager",
+    "description": "firefoxInstaller",
     "tags": [
         "Windows",
         "Firefox"
@@ -9,6 +9,6 @@
     "iconUri": "https://chocolatey.org/content/packageimages/Firefox.52.0.1.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'firefox', '\"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./selvi.ps1')]"
     }
 }
